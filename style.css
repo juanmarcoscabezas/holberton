@@ -108,6 +108,9 @@ li div {
     li div {
         float: unset;
     }
+    main {
+        flex-direction: column;
+    }
 }
 
 h1,
