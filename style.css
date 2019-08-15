@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #efefef;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    width: 70%;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    margin: 10px;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    margin: 10px;
+}
+
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(225, 0, 62);
+}
+
+.small {
+    width: 100%;
+    height: auto;
+}
+
+.big {}
+
+li a img {
+    float: left;
+}
+
+li div {
+    float: right;
+}
+
+.examples-card {
+    border: lightgray solid 1px;
+    border-radius: 4px;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 993px) {
+    li {
+        display: block;
+    }
+    li a img {
+        float: unset;
+    }
+    a img {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    li div {
+        float: unset;
+    }
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(225, 0, 62);
+}
