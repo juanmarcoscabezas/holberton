@@ -1,6 +1,7 @@
 # Holberton
 
 ## Este es un proyecto desarrollado en las admisiones de holberton school
+### JavaScript, Html, Css
 
 ### Home
 ![Home](https://raw.githubusercontent.com/juanmarcoscabezas/holberton/master/imagenes-ejemplo/home.png)
